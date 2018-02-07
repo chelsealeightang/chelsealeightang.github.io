@@ -1,0 +1,473 @@
+/* ========================== CSS Reset ========================== */
+* {
+	border: 0 none;	
+	font-family: "Ariel Sans", "Ariel Grande", "Ariel Sans Unicode", sans-serif;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+/* ========================== General Styles ========================== */
+body {
+	background-color:white;
+	text-align: center;
+}
+
+#wrapper {
+	margin: 0 auto;
+	text-align: left;
+	width: 940px;
+}
+
+a {
+	color: #076791;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.top {
+	background: url("images/bg_top.jpg") no-repeat 0px 25px;
+	color: #000;
+	font-size: 13px;
+	float: right;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+a.top:hover {
+	color: #bbb;
+	
+}
+
+blockquote {
+	background: url("images/blockquote.jpg") no-repeat top left;
+	margin-bottom: 25px;
+	padding-left: 32px;
+}
+
+blockquote p {
+	font-style: oblique;
+	margin-bottom: 5px;
+}
+
+blockquote p.author {
+	color: #666;
+	font-size: 11px;
+	font-style: normal;
+}
+
+em {
+	font-style: oblique;
+	font-size: 16px;
+	
+}
+
+h2 {
+	color: #2a2a2a;
+	font-size: 18px;
+	margin-bottom: 20px;
+	padding-top: 28px;
+}
+
+img {
+	border: 8px solid #ccc;
+	margin-bottom: 15px;
+}
+
+img.left {
+	margin: 0 20px 15px 0;
+}
+
+img.right {
+	margin: 0 0 15px 20px;
+}
+
+img.icon {
+	border: none;
+	margin: 0 12px 10px 0;
+}
+
+li {
+	background: url("images/bullet.jpg") no-repeat 0% 50%;
+	color: #777;
+	font-size: 13px;
+	line-height: 21px;
+	padding-left: 18px;
+	margin-left: 10px;
+}
+
+p {
+	color: #777;
+	font-size: 13px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+ul {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/* ========================== Header Styles ========================== */
+#header {
+	background: url("images/bg_header.jpg") no-repeat top left;
+	height: 467px;
+	width: 1024px;
+	overflow: hidden;
+	padding: 0 20px;
+	top: 0;
+	z-index: 1000;
+}
+
+#header h1 {
+	background-color: #a32626;
+	color: #eee;
+	float: left;
+	font-size: 14px;
+	height: 40px;
+	letter-spacing: 2px;
+	line-height: 40px;
+	padding: 0 16px;
+	text-transform: uppercase;
+}
+
+#header ul {
+	float: right;
+	margin-right: 123px;
+}
+
+#header ul li {
+	background: none;
+	float: left;
+	height: 40px;
+	line-height: 41px;
+	margin-left: 23px;
+	margin-top: 67px;
+	padding: 0;
+}
+
+#header ul li a {
+	color: #222;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#header ul li a:hover {
+	color: #aa0000;
+}
+
+/* ========================== Portfolio Styles ========================== */
+#portfolio {
+	margin-top: -275px;
+	margin-bottom: -25px;
+	overflow: hidden;
+	padding-top: 50px;
+}
+
+#portfolio li {
+	background: none;
+	float: left;
+	margin: 0 20px 20px 0;
+	padding: 0;
+	position: relative;
+	width: 220px;
+}
+
+#portfolio li.last {
+	margin-right: 0;
+}
+
+#portfolio li .description {
+	background-color: #444;
+	color: #eee;
+	display: none;
+	font-size:10px;
+	padding: 8px 10px;
+	position: absolute;
+}
+
+#portfolio a.thumbgallery {
+	background: url('images/thumbsprite.jpg') no-repeat;
+	display: block;
+	width: 212px; 
+	height: 152px;	
+	border: 3px solid #ccc;
+}
+
+#portfolio a:hover{
+	border: 3px solid #444;
+}
+#portfolio #thumb01  {
+	background-position: 0px 0px;
+}
+
+#portfolio #thumb01:hover  {
+	background-position: 0px -152px;	
+}
+
+#portfolio #thumb02 {
+	background-position: 0px -304px;
+}
+
+#portfolio #thumb02:hover  {
+background-position: 0px -456px;
+}
+#portfolio #thumb03  {
+	background-position: 0px -608px;
+}
+
+#portfolio #thumb03:hover  {
+	background-position: 0px -760px;
+}
+
+#portfolio #thumb04{
+	background-position: 0px -912px;
+}
+
+#portfolio #thumb04:hover  {
+	background-position: 0px -1064px;
+}
+
+#portfolio #thumb05 {
+	background-position: 0px -1216px;
+}
+
+#portfolio #thumb05:hover  {
+	background-position: 0px -1368px;
+}
+
+#portfolio #thumb06 {
+	background-position: 0px -1520px;
+}
+
+#portfolio #thumb06:hover  {
+	background-position: 0px -1672px;
+}
+
+#portfolio #thumb07 {
+	background-position: 0px -1824px;
+}
+
+#portfolio #thumb07:hover  {
+	background-position: 0px -1976px;
+}
+
+#portfolio #thumb08 {
+	background-position: 0px -2128px;
+}
+
+#portfolio #thumb08:hover  {
+	background-position: 0px -2280px;
+}
+
+#portfolio #thumb09 {
+	background-position: 0px -2432px;
+}
+
+#portfolio #thumb09:hover  {
+	background-position: 0px -2584px;
+}
+
+#portfolio #thumb10 {
+	background-position: 0px -2736px;
+}
+
+#portfolio #thumb10:hover  {
+	background-position: 0px -2888px;
+}
+
+#portfolio #thumb11 {
+	background-position: 0px -3040px;
+}
+
+#portfolio #thumb11:hover  {
+	background-position: 0px -3192px;
+}
+
+#portfolio #thumb12 {
+	background-position: 0px -3344px;
+}
+
+#portfolio #thumb12:hover  {
+	background-position: 0px -3496px;
+}
+
+#portfolio #thumb13 {
+	background-position: 0px -3648px;
+}
+
+#portfolio #thumb13:hover  {
+	background-position: 0px -3800px;
+}
+
+#portfolio #thumb14 {
+	background-position: 0px -3952px;
+}
+
+#portfolio #thumb14:hover  {
+	background-position: 0px -4104px;
+}
+
+#portfolio #thumb15 {
+	background-position: 0px -4256px;
+}
+
+#portfolio #thumb15:hover  {
+	background-position: 0px -4408px;
+}
+
+#portfolio #thumb16 {
+	background-position: 0px -4560px;
+}
+
+#portfolio #thumb16:hover  {
+	background-position: 0px -4712px;
+}
+
+/* ========================== Layout Styles ========================== */
+.page {
+	overflow: hidden;
+	padding-top: 50px;
+}
+
+.box_220, .box_300, .box_620 {
+	float: left;
+	margin-right: 20px;
+	border-top: 1px solid #2a2a2a;
+	display: inline;
+}
+
+.box_220 {
+	width: 220px;
+}
+
+.box_235 {
+	width: 235px;
+}
+
+.box_300 {
+	width: 300px;
+}
+
+.box_620 {
+	width: 620px;
+}
+
+.box_940 {
+	width: 940px;
+}
+
+.last {
+	margin-right: 0;
+}
+/* ========================== About List Styles ========================== */
+#about h2 {
+	border-top: 1px solid #2a2a2a;
+}
+
+#about p{
+	margin-top: 0px;
+}
+/* ======================= Recommendation List Styles ======================= */
+#recommendations h2 {
+	border-top: 1px solid #2a2a2a;
+}
+#recommendations .box_235{
+	float: left;
+}
+
+/* ========================== Details List Styles ========================== */
+#details p {
+	margin-right: 10px;
+}
+
+/* ========================== Contact List Styles ========================== */
+#contact {
+	background-color: #444;
+	margin-top: 25px;
+	padding-bottom: 15px;
+}
+
+#contact h2
+{
+	color: #d5d5d5;
+	border: none;
+	margin-left: 15px;
+}
+
+#contact p
+{
+	color: #d5d5d5;
+	border: none;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#email
+{
+	background: url("images/email.jpg") no-repeat 0px 7px;
+	border-top: 1px solid #bebebe;
+	border-bottom: 1px solid #bebebe;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#email a
+{
+	color: #d5d5d5;
+	font-size: 12px;
+	line-height: 26px;
+	float: right;
+}
+
+#phone p
+{font-size: 12px;}
+
+/* ========================== Footer Styles ========================== */
+#footer {
+	background-color: #0c0c0c;
+	overflow: hidden;
+	padding: 35px 0 30px 0;
+	margin-top: 50px;
+}
+
+#footerContainer {
+	margin: 0 auto;
+	text-align: left;
+	width: 940px;
+}
+
+
+/* IE6 only */   
+/*
+* html .box_220, .box_300, .box_620 {
+	margin-right: 5px;
+}
+*html #header ul {
+	margin-right: 100px;
+}
+
+*html #portfolio li {
+	margin: 0 20px 0px 0;
+	
+}
+*/

@@ -1,0 +1,296 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Chelsea Tang - Your Whimsy is showing</title>
+	<link rel="shortcut icon" href="images/favicon.ico" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+	<!-- jQuery Script -->
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<!-- Contact Form Script -->
+	<script type="text/javascript" src="js/form.js"></script>
+	<!-- Cufon Script -->
+	<script type="text/javascript" src="js/cufon-yui.js"></script>
+
+	<script type="text/javascript" src="js/zapfino_italic_400.font.js"></script>
+	<script type="text/javascript" src="js/trajan_pro_400-trajan_pro_700.font.js"></script>
+	<script type="text/javascript">
+		Cufon.replace('h2', {fontFamily: 'Zapfino'});
+		Cufon.replace('#header a', {
+			hover: true
+		});
+		Cufon.replace('a.top', {fontFamily: 'Trajan Pro'});
+		Cufon.replace('#email a', {fontFamily: 'Trajan Pro'});
+		Cufon.replace('#phone p', {fontFamily: 'Trajan Pro'});
+	</script>
+	<!-- Scroll Script -->
+	<script type="text/javascript" src="js/scroll.js"></script>
+	<!-- Fancy Box Script -->
+	<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("a[rel=gallery]").fancybox({
+				titlePosition: 'inside'
+				}
+			);
+		});
+	</script>
+	<!-- Portfolio Effect Script -->
+	<script type="text/javascript">
+		$(function(){
+			$('#portfolio li', this ).mouseenter(function() {
+				$('.description', this).slideDown('fast');
+			});
+			$('#portfolio li', this ).mouseleave(function() {
+				$('.description', this).slideUp('fast');
+			});
+		});
+	</script>
+
+</head>
+
+<body id="top">
+	<!-- BEGIN: wrapper -->
+	<div id="wrapper">
+		<!-- BEGIN: header -->
+		<div id="header">
+			<ul id="nav">
+				<li><a href="#portfolio" title="Link">Portfolio</a></li>
+				<li><a href="#about" title="Link">About</a></li>
+				<li><a href="#recommendations" title="Link">Recommendations</a></li>
+				<li><a href="#contact" title="Link">Contact</a></li>
+			</ul>
+		</div>
+		<!-- END: header -->
+
+		<!-- BEGIN: portfolio -->
+		<ul id="portfolio">
+			<li>
+				<div class="description">
+					<strong>INTERACTIVE</strong> | Intune
+				</div>
+				<a href="images/lightbox01.jpg" title="Interactive Intune Design" rel="gallery" class="thumbgallery" id="thumb01"></a>
+			</li>
+			<li>
+				<div class="description">
+					<strong>MOBILE APP</strong> | Amazon Fresh
+				</div>
+				<a href="images/lightbox02_a.jpg" title="Amazon Fresh Mobile App" rel="gallery" class="thumbgallery" id="thumb02"></a>
+				<a href="images/lightbox02_b.jpg" title="Amazon Fresh Mobile App" rel="gallery"></a>
+				<a href="images/lightbox02_c.jpg" title="Amazon Fresh Mobile App" rel="gallery"></a>
+			</li>
+			<li>
+				<div class="description">
+					<strong>WEB</strong> | Microsoft
+				</div>
+				<a href="images/lightbox03_a.jpg" title="Windows XP Upgrade Microsite Design" rel="gallery" class="thumbgallery" id="thumb03"></a>
+				<a href="images/lightbox03_b.jpg" title="Windows XP Upgrade Microsite Design" rel="gallery"></a>
+			</li>
+			<li class="last">
+				<div class="description">
+					<strong>WEB</strong> | Microsoft
+				</div>
+				<a href="images/lightbox04_a.jpg" title="Windows PC Scout Co-Brand Microsite Design" rel="gallery" class="thumbgallery" id="thumb04"></a>
+				<a href="images/lightbox04_b.jpg" title="Windows PC Scout Co-Brand Microsite Design" rel="gallery"></a>
+			</li>
+			<li>
+				<div class="description">
+					<strong>WEB</strong> | Samsonite
+				</div>
+				<a href="images/lightbox05_a.jpg" title="Samsonite Homepage Production" rel="gallery" class="thumbgallery" id="thumb05"></a>
+				<a href="images/lightbox05_b.jpg" title="Samsonite Design Extension" rel="gallery"></a>
+				<a href="images/lightbox05_c.jpg" title="Samsonite Design Extension" rel="gallery"></a>
+				<a href="images/lightbox05_d.jpg" title="American Tourister Homepage Production" rel="gallery"></a>
+				<a href="images/lightbox05_e.jpg" title="American Tourister Design Extension" rel="gallery"></a>
+			</li>
+			<li>
+				<div class="description">
+					<strong>WEB</strong> | Precor
+				</div>
+				<a href="images/lightbox06_a.jpg" title="Precor Design Extension and Production" rel="gallery" class="thumbgallery" id="thumb06"></a>
+				<a href="images/lightbox06_b.jpg" title="Precor Design Extension and Production" rel="gallery"></a>
+				<a href="images/lightbox06_c.jpg" title="Precor Banner and Loading Bar Design" rel="gallery"></a>
+				<a href="images/lightbox06_d.jpg" title="Precor Design Extension and Production" rel="gallery"></a>			</li>
+			<li>
+				<div class="description">
+					<strong>WEB</strong> | Microsoft
+				</div>
+				<a href="images/lightbox07_a.jpg" title="Windows PC Scout Homepage Production" rel="gallery" class="thumbgallery" id="thumb07"></a>
+				<a href="images/lightbox07_b.jpg" title="Windows PC Scout Design Extension" rel="gallery"></a>
+				<a href="images/lightbox07_c.jpg" title="Windows PC Scout Design Extension" rel="gallery"></a>
+			</li>
+			<li class="last">
+				<div class="description">
+					<strong>WEB</strong> | Washington State
+				</div>
+				<a href="images/lightbox08.jpg" title="CTED Design Extension and Production" rel="gallery" class="thumbgallery" id="thumb08"></a>
+			</li>
+			<li>
+				<div class="description">
+					<strong>WEB</strong> | T-Mobile
+				</div>
+				<a href="images/lightbox09_a.jpg" title="T-Mobile Design Extension and Production" rel="gallery" class="thumbgallery" id="thumb09"></a>
+				<a href="images/lightbox09_b.jpg" title="T-Mobile Banner Ad Design and Production" rel="gallery"></a>
+				<a href="images/lightbox09_c.jpg" title="T-Mobile Production" rel="gallery"></a>
+			</li>
+			<li>
+				<div class="description">
+					<strong>WEB</strong> | Microsoft
+				</div>
+				<a href="images/lightbox10.jpg" title="Windows PC Scout Mobile" rel="gallery" class="thumbgallery" id="thumb10"></a>
+			</li>
+			<li>
+				<div class="description">
+					<strong>WEB</strong> | Shawnee Sunrise Farm
+				</div>
+
+				<a href="images/lightbox11_a.jpg" title="Shawnee Sunrise Farm Homepage Design" rel="gallery" class="thumbgallery" id="thumb11"></a>
+				<a href="images/lightbox11_b.jpg" title="Shawnee Sunrise Farm Gallery and Horse Profile Page Design" rel="gallery"></a>
+			<li class="last">
+				<div class="description">
+					<strong>WEB</strong> | Microsoft
+				</div>
+				<a href="images/lightbox12.jpg" title="Games for Windows Microsite Design and Production" rel="gallery" class="thumbgallery" id="thumb12"></a>
+			</li>
+			<li>
+				<div class="description">
+					<strong>LOGO</strong> | Chibi Shoguns
+				</div>
+				<a href="images/lightbox13.jpg" title="Chibi Shoguns Logo Design" rel="gallery" class="thumbgallery" id="thumb13"></a>
+			</li>
+			<li>
+				<div class="description">
+					<strong>LOGO</strong> | Shawnee Sunrise Farm
+				</div>
+				<a href="images/lightbox14.jpg" title="Shawnee Sunrise Farm Logo Design" rel="gallery" class="thumbgallery" id="thumb14"></a>
+			</li>
+			<li>
+				<div class="description">
+					<strong>WEB</strong> | Forza Motorsport
+				</div>
+				<a href="images/lightbox15_a.jpg" title="Forza Motosport Mobile Pitch" rel="gallery" class="thumbgallery" id="thumb15"></a>
+				<a href="images/lightbox15_b.jpg" title="Forza Motosport Mobile Pitch" rel="gallery"></a>
+				<a href="images/lightbox15_c.jpg" title="Forza Motosport Mobile Pitch" rel="gallery"></a>
+			</li>
+			<li class="last">
+				<div class="description">
+					<strong>WEB</strong> | Microsoft
+				</div>
+				<a href="images/lightbox16.jpg" title="Microsoft Office 365 Production" rel="gallery" class="thumbgallery" id="thumb16"></a>
+			</li>
+		</ul>
+		<div class="box_940">
+			<a href="#top" title="Back to Top" class="top">Back to Top</a>
+		</div>
+		<div style="clear: both;"></div>
+		<!-- END: portfolio -->
+		<!-- BEGIN: about -->
+		<div class="page" id="about">
+			<div class="box_940">
+				<h2>About Me</h2>
+				<img src="images/portrait.jpg" alt="Portrait" class="left" />
+				<p>Hello there! I'm Chelsea Tang, currently freelancing under the name Whimsy, LLC. I graduated from Full Sail University in Florida and somehow found myself in the Pacific Northwest married, raising kids, and working for some very interesting corporations. The last 10 years have been spent in the technology industry balancing art and technology. People and art are my passions, and technology seems to be the glue that mashes them together in this town. I won't lie, I love it.</p>
+				<p>When I'm not building web pages, designing mobile apps, or making fun vector art, I can be found sewing, chasing small children, or helping my husband remodel our house (because tearing out a wall or a toilet is so much more therapeutic than tearing out old webpages). Do I sound like someone who would be a good fit for your project or team? Check out my
+				<strong><a href="#recommendations" title ="Recommendations">recommendations</a></strong> and my
+				<strong><a href="chelseatang_resume.pdf" title="Resume">resum&eacute;</a></strong> and let me know.</p>
+			</div>
+			<div class="box_940">
+				<a href="#top" title="Back to Top" class="top">Back to Top</a>
+			</div>
+		<div style="clear: both;"></div>
+		</div>
+		<!-- END: about -->
+		<!-- BEGIN: html recommendations -->
+		<div class="page" id="recommendations">
+			<div class="box_940"><h2>Recommendations</h2></div>
+			<div class="box_235">
+				<blockquote>
+					<p>She is also extraordinarily collaborative, not only engaging members of her own team,
+					but has been critical in bringing together our design and technology teams...
+					<strong><a href="JamesRobinson_Recommendation.pdf" title="Read More">read more</a></strong></p>
+					<p class="author">&mdash; James Robinson, <a href="http://www.ascentium.com" title="Ascentium">Ascentium</a></p>
+					<p class="author">Group Creative Director/Visual Design Discipline Lead</p>
+				</blockquote>
+			</div>
+			<div class="box_235">
+				<blockquote>
+					<p>She's supremely motivated in all the right ways: she's the first to offer help, and
+					she's always looking for ways to improve herself, the team, and ultimately, the company...
+					<strong><a href="SteveMalmin_Recommendation.pdf" title="Read More">read more</a></strong></p>
+					<p class="author">&mdash; Steve Malmin, <a href="http://www.ascentium.com" title="Ascentium">Ascentium</a></p>
+					<p class="author">Production Lead, Ascentium</p>
+				</blockquote>
+			</div>
+			<div class="box_235">
+				<blockquote>
+					<p>I worked with Chelsea on several projects at Ascentium and was impressed by the intelligence
+					and skill she brought to her work. Her design extensions were thoughtful and true to the art direction...<br />
+					<strong><a href="BrianSpeight_Recommendation.pdf" title="Read More">read more</a></strong></p>
+					<p class="author">&mdash; Brian Speight, <a href="http://www.ascentium.com" title="Ascentium">Ascentium</a></p>
+					<p class="author">Art Director, Ascentium</p>
+				</blockquote>
+			</div>
+			<div class="box_235 last">
+				<blockquote>
+					<p>I can't say enough about Chelsea's great work attitude, attention to detail, talent, and excellent
+					communication skills...<br />
+					<strong><a href="MilenaDedijer_Recommendation.pdf" title="Read More">read more</a></strong></p>
+					<p class="author">&mdash; Milena Dedijer, <a href="http://www.ascentium.com" title="Ascentium">Ascentium</a></p>
+					<p class="author">Art Director, Ascentium</p>
+				</blockquote>
+			</div>
+			<div class="box_940">
+				<a href="#top" title="Back to Top" class="top">Back to Top</a>
+			</div>
+		</div>
+		<!-- END: recommendations -->
+		<!-- BEGIN: html details -->
+		<div class="page" id="details">
+			<div class="box_620">
+				<h2>Details</h2>
+
+				<p>I've spent the last couple of years working for brands like Microsoft, Amazon, AT&amp;T, and Samsonite. I can take pieces of projects and work in a team of Designers, or I can start with your client and begin with UX, moving through wireframes, design, production, and final hand off to Development. I ask a lot of questions, I love details, and I want to know the intent and purpose of what I’m creating for you. I learn quickly, I work hard, and pride myself in teaming with Developers to make their work as easy as possible.</p>
+				<p>Here's some of what I can do for you:</p>
+				<ul>
+					<li>Reactive Web Design</li>
+					<li>Mobile App Design</li>
+					<li>Production Design</li>
+					<li>Illustration</li>
+				</ul>
+
+			</div>
+			<div class="box_300 last">
+				<div id="contact">
+					<h2>Contact</h2>
+						<p>Please feel free to drop me an email or a phone call.  I would love to hear from you.</p>
+						<div id="email">
+							<a href="mailto:CKIBLER@GMAIL.COM">CKIBLER@GMAIL.COM</a>
+							<div style="clear: both;"></div>
+						</div>
+
+						<div id="phone">
+							<p class="left">PHONE:</p>
+							<p class="right">425.301.6606</p>
+						</div>
+						<div style="clear: both;"></div>
+					<div class ="box_300" style="height: 55px; border: none;"></div>
+				</div>
+
+			</div>
+
+			<div class="box_940">
+				<a href="#top" title="Back to Top" class="top">Back to Top</a>
+			</div>
+		</div>
+		<!-- END: html details -->
+	</div>
+	<!-- END: wrapper -->
+	<!-- BEGIN: footer -->
+	<div id="footer">
+		<div id="footerContainer">
+
+			<div class="box_940">
+				<p>&copy; Whimsy, LLC 2011</p>
